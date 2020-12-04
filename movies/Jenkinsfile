@@ -10,8 +10,8 @@ pipeline {
     }
 
     environment {
-    DEV_PROJECT = "bernaxa-books-dev"
-    STAGE_PROJECT = "bernaxa-books-stage"
+    DEV_PROJECT = "bernaxa-movies-dev"
+    STAGE_PROJECT = "bernaxa-movies-stage"
     APP_GIT_URL = "https://github.com/bernaxa/DO288-apps"
     NEXUS_SERVER = "http://nexus-common.apps.cluster.domain.example.com/repository/java"
         // DO NOT CHANGE THE GLOBAL VARS BELOW THIS LINE

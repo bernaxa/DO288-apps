@@ -60,7 +60,6 @@ pipeline {
                    '''
             }
         }
-
         stage('Launch new app in DEV env') {
             steps {
                 echo '### Cleaning existing resources in DEV env ###'
